@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.2.0 (2025-02-14)
+
+### Chores
+
+- **semver**: Make it manual semver for now
+  ([`ddcaf56`](https://github.com/IraitzM/data-complexity-profiler/commit/ddcaf56a6138f71ae8bead913c0b4f415990b872))
+
+### Features
+
+- **demo**: Example notebook
+  ([`22cbc10`](https://github.com/IraitzM/data-complexity-profiler/commit/22cbc10d93b08f8820703e3277e1399c4bf6412b))
+
+
 ## v0.1.0 (2025-02-14)
 
 ### Bug Fixes
