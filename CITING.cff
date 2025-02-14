@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Montalbán"
+  given-names: "Iraitz"
+  orcid: "https://orcid.org/my-orcid?orcid=0000-0001-6213-3616"
+title: "Data Complexity Software"
+doi: https://arxiv.org/abs/1808.03591
+date-released: 2025-02-14
+url: "https://github.com/IraitzM/data-complexity.profiler"

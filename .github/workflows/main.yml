@@ -1,0 +1,32 @@
+name: Quality assurance
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: continuous-integration
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - "3.11"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PDM
+        uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+        # You are now able to use PDM in your workflow
+      - name: Install dependencies
+        run: pdm install
+
+      - name: Check coverage
+        run: pdm run coverage run -m pytest
+
+      - uses: eosc-synergy/sqaaas-assessment-action@v2
