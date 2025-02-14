@@ -1,4 +1,4 @@
-[![SQAaaS badge shields.io](https://github.com/EOSC-synergy/data-complexity-profiler.assess.sqaaas/raw/master/.badge/status_shields.svg)](https://sqaaas.eosc-synergy.eu/#/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/data-complexity-profiler.assess.sqaaas/master/.report/assessment_output.json)
+[![SQAaaS badge shields.io](https://github.com/EOSC-synergy/data-complexity-profiler.assess.sqaaas/raw/main/.badge/status_shields.svg)](https://sqaaas.eosc-synergy.eu/#/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/data-complexity-profiler.assess.sqaaas/main/.report/assessment_output.json)
 
 
 # Data Complexity
