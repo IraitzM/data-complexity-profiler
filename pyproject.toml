@@ -23,8 +23,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "..."
-Documentation = "..."
+#Homepage = "..."
+#Documentation = "..."
 Repository = "https://github.com/IraitzM/data-complexity-profiler"
 Issues = "https://github.com/IraitzM/data-complexity-profiler/issues"
 Changelog = "https://github.com/IraitzM/data-complexity-profiler/blob/main/CHANGELOG.md"
