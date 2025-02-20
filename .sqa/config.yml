@@ -1,14 +1,23 @@
 config:
   project_repos:
-    myrepo:
+    dcprepo:
       repo: 'https://github.com/IraitzM/data-complexity-profiler'
 
 sqa_criteria:
-  QC.Uni:
+  qc_style:
     repos:
-      github.com/indigo-dc/udocker nosetests:
-        commands:
-        - /usr/bin/env sh .sqa/script.nosetests.sh
-        container: qc.unit_udocker
+      dcprepo:
+        container: dcp-style
+        tox:
+          testenv:
+              - stylecheck
+
+  qc_coverage:
+    repos:
+      dcprepo:
+        container: dcp-coverage
+        tox:
+          testenv:
+              - coverage
 
 timeout: 1800
