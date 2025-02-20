@@ -39,6 +39,12 @@ jobs:
       #    git_committer_name: "github-actions"
       #    git_committer_email: "actions@users.noreply.github.com"
 
+      - uses: eosc-synergy/sqaaas-step-action@v1
+        with:
+          name: tox_unit_step
+          tool: tox
+          tox_env: run_unit
+
       - uses: eosc-synergy/sqaaas-assessment-action@v2
         with:
           qc_uni_steps: tox_unit_step
