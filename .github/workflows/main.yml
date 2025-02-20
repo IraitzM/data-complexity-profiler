@@ -40,7 +40,8 @@ jobs:
       #    git_committer_email: "actions@users.noreply.github.com"
 
       - uses: eosc-synergy/sqaaas-assessment-action@v2
-
+        with:
+          qc_uni_steps: tox_unit_step
   cd:
     name: continuous-delivery
     if: contains(github.ref, 'main')
