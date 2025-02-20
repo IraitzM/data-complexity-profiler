@@ -4,16 +4,17 @@ on:
   push:
     branches:
       - main
+      - dev
+      - fix/sqa
 
 jobs:
-  build:
+  ci:
     name: continuous-integration
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version:
           - "3.12"
-
     steps:
       - uses: actions/checkout@v4
 
@@ -40,6 +41,15 @@ jobs:
 
       - uses: eosc-synergy/sqaaas-assessment-action@v2
 
+  cd:
+    name: continuous-delivery
+    if: contains(github.ref, "main")
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - "3.12"
+    steps:
       - name: Build package
         run: pdm build
 
