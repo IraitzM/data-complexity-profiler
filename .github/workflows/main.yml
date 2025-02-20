@@ -43,7 +43,7 @@ jobs:
 
   cd:
     name: continuous-delivery
-    if: contains(github.ref, "main")
+    if: contains(github.ref, 'main')
     runs-on: ubuntu-latest
     strategy:
       matrix:
