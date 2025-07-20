@@ -1,5 +1,6 @@
 [![SQAaaS badge shields.io](https://github.com/EOSC-synergy/data-complexity-profiler.assess.sqaaas/raw/main/.badge/status_shields.svg)](https://sqaaas.eosc-synergy.eu/#/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/data-complexity-profiler.assess.sqaaas/main/.report/assessment_output.json)
 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/IraitzM/data-complexity-profiler?utm_source=oss&utm_medium=github&utm_campaign=IraitzM%2Fdata-complexity-profiler&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 # Data Complexity
 
