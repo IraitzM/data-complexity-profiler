@@ -9,7 +9,7 @@ dependencies = [
     "gower>=0.1.2",
     "networkx>=3.2.1",
 ]
-requires-python = ">=3.12, <3.13"
+requires-python = ">=3.10, <3.13"
 readme = "README.md"
 license = {text = "MIT"}
 dynamic = ["version"]
@@ -19,6 +19,8 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Topic :: Scientific/Engineering :: Information Analysis",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
 ]
 

@@ -1,0 +1,23 @@
+config:
+  project_repos:
+    dcprepo:
+      repo: 'https://github.com/IraitzM/data-complexity-profiler'
+
+sqa_criteria:
+  qc_style:
+    repos:
+      dcprepo:
+        container: dcp-style
+        tox:
+          testenv:
+              - stylecheck
+
+  qc_coverage:
+    repos:
+      dcprepo:
+        container: dcp-coverage
+        tox:
+          testenv:
+              - coverage
+
+timeout: 1800

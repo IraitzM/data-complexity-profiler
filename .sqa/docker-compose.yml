@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+  unit-testing:
+    image: "indigodatacloud/ci-images:python3.11"
+    hostname: "dcp-testing-host"
+    volumes:
+     - type: bind
+       source: ./dcprepo
+       target: /unit-testing
